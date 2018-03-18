@@ -139,6 +139,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="Arguments.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="Comp.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="lnFunc.h" />
+    <ClInclude Include="Mul.h" />
+    <ClInclude Include="oneArgument.h" />
+    <ClInclude Include="Poly.h" />
+    <ClInclude Include="sqrtFunc.h" />
+    <ClInclude Include="twoArguments.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="Arguments.cpp" />
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="Comp.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="lnFunc.cpp" />
+    <ClCompile Include="Mul.cpp" />
+    <ClCompile Include="oneArgument.cpp" />
+    <ClCompile Include="Poly.cpp" />
+    <ClCompile Include="sqrtFunc.cpp" />
+    <ClCompile Include="twoArguments.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
